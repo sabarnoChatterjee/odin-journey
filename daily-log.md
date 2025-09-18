@@ -22,3 +22,10 @@ Short notes on what I do each day.
 - Added index.html and README for Intro to CSS section  
 - Completed CSS exercises: 01-css-methods and 02-class-id-selectors  
 - Plan: continue with 03-grouping-selectors  
+
+
+### Day 4 (Sep 18, 2025)  
+- Completed Foundations → The Cascade (specificity, inheritance, rule order)  
+- Learned how to inspect HTML & CSS using browser DevTools  
+- Studied The Box Model (content, padding, border, margin, box-sizing)  
+- Plan: move on to block & inline elements next  
