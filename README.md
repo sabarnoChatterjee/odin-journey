@@ -9,7 +9,7 @@ This repository documents my progress through [The Odin Project](https://www.the
 - **full-stack/** → Backend, databases, frameworks
 
 ## Progress
-✅ Completed up to **Intro to CSS*  
+✅ Completed up to **The Cascade**  
 📌 Currently working on: *next Foundations lesson*  
 
 ## Daily Log
