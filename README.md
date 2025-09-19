@@ -9,7 +9,7 @@ This repository documents my progress through [The Odin Project](https://www.the
 - **full-stack/** → Backend, databases, frameworks
 
 ## Progress
-✅ Completed up to **The Box Model**  
+✅ Completed up to **Block and Inline**  
 📌 Currently working on: *next Foundations lesson*  
 
 ## Daily Log

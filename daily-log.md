@@ -29,3 +29,12 @@ Short notes on what I do each day.
 - Learned how to inspect HTML & CSS using browser DevTools  
 - Studied The Box Model (content, padding, border, margin, box-sizing)  
 - Plan: move on to block & inline elements next  
+
+
+### Day 5 (Sep 19, 2025)
+
+- Completed Foundations → Block & Inline Elements
+- Added basic CSS styling to Recipes project (created styles.css in project folder)
+- Experimented with centering images and buttons using CSS (margin: auto;, text-align,    flexbox)
+- Applied font-family styles for improved readability
+- Plan: continue with next CSS lessons (Grouping Selectors, more exercises, etc.)
