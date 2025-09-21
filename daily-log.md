@@ -47,3 +47,11 @@ Short notes on what I do each day.
 - Explored `flex-wrap` and how items adjust in responsive layouts  
 - Studied additional Flexbox material from *Interneting Is Hard* for deeper understanding  
 - Plan: move on to "Growing and Shrinking" next  
+
+
+### Day 7 (Sep 21, 2025)  
+- Completed Foundations → Flexbox Growing and Shrinking (flex-grow, flex-shrink, flex-basis)  
+- Learned about Flexbox Axes (main axis vs cross axis, justify-content, align-items)  
+- Studied Flexbox Alignment (advanced alignments, distribution, and `gap` property for spacing)  
+- Practiced extensively with **Flexbox Froggy** to solidify concepts  
+- Plan: move on to Project: Landing Page next  
