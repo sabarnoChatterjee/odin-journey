@@ -38,3 +38,12 @@ Short notes on what I do each day.
 - Experimented with centering images and buttons using CSS (margin: auto;, text-align,    flexbox)
 - Applied font-family styles for improved readability
 - Plan: continue with next CSS lessons (Grouping Selectors, more exercises, etc.)
+
+
+### Day 6 (Sep 20, 2025)  
+- Completed Foundations → Introduction to Flexbox  
+- Learned about flex containers, flex items, main & cross axes  
+- Practiced alignment with `justify-content`, `align-items`, and `gap`  
+- Explored `flex-wrap` and how items adjust in responsive layouts  
+- Studied additional Flexbox material from *Interneting Is Hard* for deeper understanding  
+- Plan: move on to "Growing and Shrinking" next  
