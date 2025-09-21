@@ -26,4 +26,5 @@ In this lesson you’ll dig deeper into how flex items size themselves using the
 ## References
 
 - [The Odin Project – Growing and Shrinking](https://www.theodinproject.com/lessons/foundations-growing-and-shrinking) :contentReference[oaicite:5]{index=5}  
-- MDN documentation on [`flex` shorthand](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)  
+- MDN documentation on [`flex` shorthand](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
+- https://flexbox.malven.co/ (flexbox cheatsheet)
