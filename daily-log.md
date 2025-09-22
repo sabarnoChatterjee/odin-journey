@@ -55,3 +55,9 @@ Short notes on what I do each day.
 - Studied Flexbox Alignment (advanced alignments, distribution, and `gap` property for spacing)  
 - Practiced extensively with **Flexbox Froggy** to solidify concepts  
 - Plan: move on to Project: Landing Page next  
+
+### Day 8 (Sep 22, 2025)
+- Worked on The Odin Project Landing Page project.
+- Created initial commit with index.html, styles.css, and README.md
+- Added responsive navbar
+- Laid out the basic html structure.
