@@ -1,5 +1,27 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: #fff;
+    height: 50px;
+}
+
+.link{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.link a{
+    text-decoration: none;
+    color: #fff;
 }
