@@ -1,0 +1,15 @@
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav-list li{
+    /* flex-grow: 1;
+    flex-shrink: 1;; */
+    background-color: yellow;
+    /* width: max-content; */
+}

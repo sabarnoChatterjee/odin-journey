@@ -5,13 +5,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.header,.hero{
+    background-color: #1F2937;
+    color: #fff;
+}
+
 .header{
     display: flex;
     list-style: none;
     justify-content: space-around;
     align-items: center;
-    background-color: #1F2937;
-    color: #fff;
     height: 50px;
 }
 
@@ -24,4 +27,15 @@
 .link a{
     text-decoration: none;
     color: #fff;
+}
+
+.placeholder-image img{
+    width: 400px;
+    height: auto;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    flex: 1;
 }
