@@ -61,3 +61,12 @@ Short notes on what I do each day.
 - Created initial commit with index.html, styles.css, and README.md
 - Added responsive navbar
 - Laid out the basic html structure.
+
+### Day 9 (Sep 21, 2025)
+
+- Moved on to Foundations → JavaScript Basics → Variables and Operators
+- Learned about variable declaration (let, const), reassignment, and operators (+, -, *, /, %, **)
+- Studied type conversion and practiced with unary + examples
+- Installed npm, nvm, and Node.js for running JS locally
+- Completed first 2 chapters of Flexbox Zombies to reinforce CSS concepts
+- Plan: continue deeper into JS basics (strings, conditionals, functions) while gradually revisiting CSS with practice games
