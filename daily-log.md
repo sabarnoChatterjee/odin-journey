@@ -70,3 +70,11 @@ Short notes on what I do each day.
 - Installed npm, nvm, and Node.js for running JS locally
 - Completed first 2 chapters of Flexbox Zombies to reinforce CSS concepts
 - Plan: continue deeper into JS basics (strings, conditionals, functions) while gradually revisiting CSS with practice games
+
+
+### Day 10 (Sep 20, 2025)  
+- Moved to Foundations → JavaScript Basics (took break from CSS)  
+- Completed Variables and Operators (incl. numeric conversion with unary +)  
+- Explored Strings in depth (template literals, methods, immutability)  
+- Covered Data Types and Conditionals (if/else, switch, ternary)  
+- Plan: continue with Loops and Functions next  
