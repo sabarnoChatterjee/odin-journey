@@ -78,3 +78,11 @@ Short notes on what I do each day.
 - Explored Strings in depth (template literals, methods, immutability)  
 - Covered Data Types and Conditionals (if/else, switch, ternary)  
 - Plan: continue with Loops and Functions next  
+
+
+### Day 11 (Sep 21, 2025)  
+- Completed Foundations → Functions (basics, declarations, expressions, return values)  
+- Practiced writing small utility functions for problem-solving  
+- Finished lesson on Problem Solving (understanding, planning, dividing, and reviewing solutions)  
+- Learned how to use JavaScript Developer Tools (Chrome DevTools: Console, Elements, breakpoints, live CSS/HTML edits)  
+- Plan: continue with loops next
