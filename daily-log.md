@@ -62,7 +62,7 @@ Short notes on what I do each day.
 - Added responsive navbar
 - Laid out the basic html structure.
 
-### Day 9 (Sep 21, 2025)
+### Day 9 (Sep 23, 2025)
 
 - Moved on to Foundations → JavaScript Basics → Variables and Operators
 - Learned about variable declaration (let, const), reassignment, and operators (+, -, *, /, %, **)
@@ -72,7 +72,7 @@ Short notes on what I do each day.
 - Plan: continue deeper into JS basics (strings, conditionals, functions) while gradually revisiting CSS with practice games
 
 
-### Day 10 (Sep 20, 2025)  
+### Day 10 (Sep 24, 2025)  
 - Moved to Foundations → JavaScript Basics (took break from CSS)  
 - Completed Variables and Operators (incl. numeric conversion with unary +)  
 - Explored Strings in depth (template literals, methods, immutability)  
@@ -80,9 +80,16 @@ Short notes on what I do each day.
 - Plan: continue with Loops and Functions next  
 
 
-### Day 11 (Sep 21, 2025)  
+### Day 11 (Sep 25, 2025)  
 - Completed Foundations → Functions (basics, declarations, expressions, return values)  
 - Practiced writing small utility functions for problem-solving  
 - Finished lesson on Problem Solving (understanding, planning, dividing, and reviewing solutions)  
 - Learned how to use JavaScript Developer Tools (Chrome DevTools: Console, Elements, breakpoints, live CSS/HTML edits)  
 - Plan: continue with loops next
+
+
+### Day 12 (Sep 26, 2025)  
+- Completed Foundations → Understanding Errors (error types, stack traces, try…catch, debugging strategies)  
+- Learned to read and interpret error messages effectively  
+- Explored best practices for debugging using console logs and breakpoints  
+- Plan: continue with loops in JavaScript next  
