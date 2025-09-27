@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -8,6 +9,7 @@ header{
     background-color: #1F2937;
     height: 70vh;
 }
+
 
 .navbar ul{
     list-style: none;
@@ -59,7 +61,8 @@ header{
 .placeholder-image {
   margin-left: 10px;
   height: 250px;
-}  
+} 
+
 .signup{
     background-color: #3882f6;
     color: #fff;
@@ -124,4 +127,43 @@ main>p{
     color: #1F2937;
     font-size: 18px;
     margin-left: 400px;
+}
+
+.call-to-action{
+    width: 600px;
+    height: 60;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.call-to-action button{
+    border: 2px #fff solid;
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    padding: 0;
+}
+
+.call-to-action >section> :first-child{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.call-to-action >section> :nth-child(2){
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.footer{
+    font-size: 15px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
