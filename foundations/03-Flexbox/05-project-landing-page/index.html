@@ -1,43 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
     <title>Landing Page</title>
-</head>
-<body>
-    <div>
-        <ul class="header">
-            <li class="header-logo">Header Logo</li>
-            <nav class="link">
-                <a href="#">
-                    <li class="header-one">Header Link One</li>
-                </a>
-                <a href="#">
-                    <li class="header-two">Header Link Two</li>
-                </a>
-                <a href="#">
-                    <li class="header-three">Header Link Three</li>
-                </a>
-            </section>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li class="logo">Header Logo</li>
+          <div class="links">
+            <a href="#">
+              <li class="link">Header Link One</li>
+            </a>
+            <a href="#">
+              <li class="link">Header Link Two</li>
+            </a>
+            <a href="#">
+              <li class="link">Header Link Three</li>
+            </a>
+          </div>
         </ul>
-    </div>
-    <div class="hero">
-        <section>
-            <div class="main-text">
-                <p>This website is awesome</p>
-            </div>
-            <div class="secondary-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis at provident ut! Placeat ducimus odit culpa optio quod minus.</p>
-            </div>
-            <button>
-                Sign Up
-            </button>
+      </nav>
+      <div class="hero">
+        <section class="text">
+          <p class="main-text">This website is awesome</p>
+          <p class="secondary-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            at provident ut! Placeat ducimus odit culpa optio quod minus.
+          </p>
+          <button class="signup">Sign Up</button>
         </section>
-        <section class="placeholder-image">
-            <img src="https://placehold.co/600x400" alt="placeholder image">
+        <section class="image">
+          <img
+            src="./images/placeholder.svg"
+            class="placeholder-image"
+            alt="placeholder image"
+          />
         </section>
-    </div>
-</body>
+      </div>
+    </header>
+
+    
+    <!-- <footer>
+        Copyright The odin project
+    </footer> -->
+  </body>
 </html>
