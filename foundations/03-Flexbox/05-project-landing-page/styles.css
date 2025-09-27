@@ -91,3 +91,29 @@ main>p{
     border:5px #3882f6 solid;
     border-radius: 15px;
 }
+
+.images figure{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 200px;
+    color: rgb(125, 121, 121);
+}
+
+.quote{
+    background-color: #E5E7EB;
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.quote p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    width: 600px;
+}
