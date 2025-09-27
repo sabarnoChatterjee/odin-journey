@@ -102,18 +102,26 @@ main>p{
 }
 
 .quote{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
     background-color: #E5E7EB;
     height: 400px;
     width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 100px 0;
 }
 
-.quote p{
+.quote > :first-child{
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
     width: 600px;
+}
+
+.quote > :nth-child(2){
+    color: #1F2937;
+    font-size: 18px;
+    margin-left: 400px;
 }
