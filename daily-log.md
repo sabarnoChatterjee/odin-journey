@@ -93,3 +93,10 @@ Short notes on what I do each day.
 - Learned to read and interpret error messages effectively  
 - Explored best practices for debugging using console logs and breakpoints  
 - Plan: continue with loops in JavaScript next  
+
+
+### Day 13 (Sep 27, 2025)
+- Completed Landing Page project (all sections and styling)
+- Completed Rock Paper Scissors (console) project and added README
+- Added/updated project READMEs and committed project files to repos
+- Plan: continue with JavaScript (Loops & Functions) and polish portfolio repos
