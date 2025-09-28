@@ -100,3 +100,10 @@ Short notes on what I do each day.
 - Completed Rock Paper Scissors (console) project and added README
 - Added/updated project READMEs and committed project files to repos
 - Plan: continue with JavaScript (Loops & Functions) and polish portfolio repos
+
+
+### Day 14 (Sep 28, 2025)
+- Completed Foundations → Clean Code
+- Completed Foundations → Loops and Arrays
+- Learned about writing cleaner, more readable code and iterating arrays with loops
+- Plan: continue with JavaScript lessons and practice array/loop problems
