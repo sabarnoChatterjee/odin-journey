@@ -107,3 +107,9 @@ Short notes on what I do each day.
 - Completed Foundations → Loops and Arrays
 - Learned about writing cleaner, more readable code and iterating arrays with loops
 - Plan: continue with JavaScript lessons and practice array/loop problems
+
+
+### Day 15 (Sep 29, 2025)  
+- Completed Foundations → DOM Manipulation and Events  
+- Studied Arrays section from JavaScript.info documentation  
+- Plan: practice DOM and array operations with small interactive exercises  
