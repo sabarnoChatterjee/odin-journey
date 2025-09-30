@@ -113,3 +113,7 @@ Short notes on what I do each day.
 - Completed Foundations → DOM Manipulation and Events  
 - Studied Arrays section from JavaScript.info documentation  
 - Plan: practice DOM and array operations with small interactive exercises  
+
+
+### Day 16 (Sep 30, 2025)
+- Completed **Object Basics** lesson (understood object creation, property access, iteration, references, and property management)
