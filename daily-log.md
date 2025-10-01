@@ -117,3 +117,9 @@ Short notes on what I do each day.
 
 ### Day 16 (Sep 30, 2025)
 - Completed **Object Basics** lesson (understood object creation, property access, iteration, references, and property management)
+
+
+### Day 17 (Oct 1, 2025)
+- Practiced Flexbox Froggy to strengthen Flexbox fundamentals
+- Refactored Rock Paper Scissors project by adding playGame() and printScore() functions
+- Plan: continue with JavaScript lessons (Objects, Functions, and DOM projects)
