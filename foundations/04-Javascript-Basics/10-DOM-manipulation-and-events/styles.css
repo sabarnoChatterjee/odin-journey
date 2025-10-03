@@ -1,0 +1,43 @@
+.content{
+    color: #fff;
+    background-color: blueviolet;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue
+}
+
+.div{
+    background-color: pink;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top: 10px;
+    padding: 5px 40px;
+    border-radius: 8px;
+    background-color: orange;
+    font-size: 20px;
+    color: #fff;
+}
+
+.hidden{
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 20px;
+}
