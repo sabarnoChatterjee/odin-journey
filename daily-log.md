@@ -123,3 +123,11 @@ Short notes on what I do each day.
 - Practiced Flexbox Froggy to strengthen Flexbox fundamentals
 - Refactored Rock Paper Scissors project by adding playGame() and printScore() functions
 - Plan: continue with JavaScript lessons (Objects, Functions, and DOM projects)
+
+
+### Day 18 (Oct 3, 2025)
+- Practised Odin Project assignment exercises in depth.
+- Created a new UI version of the Rock Paper Scissors project.
+- Added index.html, styles.css, and script.js for DOM manipulation and event handling.
+- Wrote a detailed README describing the new UI-based logic.
+- Troubleshot GitHub setup issues and configured new remote repository.
