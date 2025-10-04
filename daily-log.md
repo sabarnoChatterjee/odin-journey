@@ -131,3 +131,11 @@ Short notes on what I do each day.
 - Added index.html, styles.css, and script.js for DOM manipulation and event handling.
 - Wrote a detailed README describing the new UI-based logic.
 - Troubleshot GitHub setup issues and configured new remote repository.
+
+
+### Day 19 (Oct 4, 2025)
+- Studied DOM manipulation in depth through a FreeCodeCamp YouTube tutorial.
+- Built multiple practice web pages using HTML, CSS, and JavaScript.
+- Implemented various event handlers and explored interactive behavior in the browser.
+- Designed and integrated a completely new UI for the Rock Paper Scissors project.
+- Plan to refine and enhance the UI further once all game functionalities are implemented.
