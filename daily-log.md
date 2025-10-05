@@ -139,3 +139,11 @@ Short notes on what I do each day.
 - Implemented various event handlers and explored interactive behavior in the browser.
 - Designed and integrated a completely new UI for the Rock Paper Scissors project.
 - Plan to refine and enhance the UI further once all game functionalities are implemented.
+
+
+### Day 20 (Oct 5, 2025)
+- Continued studying DOM manipulation from FreeCodeCamp’s YouTube video
+- Implemented 2 complete websites from the tutorial and wrote custom CSS for both
+- Studied and practiced event propagation (capturing, targeting, bubbling)
+- Learned and implemented event delegation for efficient event handling
+- Plan: continue DOM practice and refine Rock Paper Scissors UI tomorrow
