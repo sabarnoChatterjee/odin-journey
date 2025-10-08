@@ -147,3 +147,13 @@ Short notes on what I do each day.
 - Studied and practiced event propagation (capturing, targeting, bubbling)
 - Learned and implemented event delegation for efficient event handling
 - Plan: continue DOM practice and refine Rock Paper Scissors UI tomorrow
+
+
+### Day 21 (Oct 6, 2025)
+- Restructured the UI of rock, paper, scissors project.
+
+### Day 22 (Oct 7, 2025)
+- Completed Rock Paper Scissors UI version with full multi-round functionality and updated README
+- Studied and practiced DOM Manipulation concepts further using a FreeCodeCamp JS DOM project
+- Implemented dynamic UI interactions and event-driven logic from scratch
+- Plan: polish Rock Paper Scissors project visuals and begin new DOM practice mini-projects next
