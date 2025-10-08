@@ -157,3 +157,11 @@ Short notes on what I do each day.
 - Studied and practiced DOM Manipulation concepts further using a FreeCodeCamp JS DOM project
 - Implemented dynamic UI interactions and event-driven logic from scratch
 - Plan: polish Rock Paper Scissors project visuals and begin new DOM practice mini-projects next
+
+
+### Day 23 (Oct 8, 2025)
+
+- Worked on a DOM project to display and hide a modal window.
+- Used CSS `transform` property for modal animations.
+- Added smooth animation effects to enhance UI interaction.
+- Focused on combining JS event handling with CSS transitions for better user experience.
