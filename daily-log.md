@@ -165,3 +165,10 @@ Short notes on what I do each day.
 - Used CSS `transform` property for modal animations.
 - Added smooth animation effects to enhance UI interaction.
 - Focused on combining JS event handling with CSS transitions for better user experience.
+
+### Day 24 (Oct 9, 2025)
+
+- Completed multiple DOM-based mini projects: Quote Generator, Modal Window, Accordion Design, Stopwatch, and To-Do List.
+- Organized all projects under a single repository named JavaScript Mini Projects.
+- Implemented Etch a sketch(odin project).
+- Need to implement dynamic grid.
