@@ -9,11 +9,15 @@ function displayGrid(){
             grid.classList.add("grid");
             container.appendChild(grid);
 
+            let opacity = 0;
             grid.addEventListener('mouseover',function(){
                 let red = Math.floor(Math.random()*256);
                 let green = Math.floor(Math.random()*256);
                 let blue = Math.floor(Math.random()*256);
-                grid.style.backgroundColor = `rgb(${red},${green},${blue})`;
+                if(opacity<1)
+                    opacity += .1;
+                console.log(opacity);
+                grid.style.backgroundColor = `rgba(${red},${green},${blue},${opacity})`;
             })
         }
     }
