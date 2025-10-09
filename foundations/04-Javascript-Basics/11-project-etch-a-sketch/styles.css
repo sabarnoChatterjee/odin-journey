@@ -24,11 +24,7 @@ body {
     background-color: #fff;
     width: 35px;
     height: 35px;
-    border: 1px #000 solid;
     box-shadow: 0 0 10px;
     cursor: pointer;
 }
 
-.grid:hover{
-    background-color: #AF3E3E;
-}

@@ -8,6 +8,13 @@ function displayGrid(){
             let grid = document.createElement("div");
             grid.classList.add("grid");
             container.appendChild(grid);
+
+            grid.addEventListener('mouseover',function(){
+                let red = Math.floor(Math.random()*256);
+                let green = Math.floor(Math.random()*256);
+                let blue = Math.floor(Math.random()*256);
+                grid.style.backgroundColor = `rgb(${red},${green},${blue})`;
+            })
         }
     }
 }
