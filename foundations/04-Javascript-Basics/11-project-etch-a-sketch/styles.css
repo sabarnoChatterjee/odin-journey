@@ -11,19 +11,41 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-.container{
+/*  Generate grid  */
+
+.new-grid{
+    padding: 5px 10px;
+    font-size:1.2rem;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #fff;
+    color: red;
+    transition: .4s;
+}
+
+.new-grid:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.gridBox{
     display: flex;
     flex-wrap: wrap;
     width: 560px;
     box-shadow: 0 0 30px;
+    flex: 1;
 }
+
+
+/* Javascript styling */
 
 .grid{
     background-color: #fff;
-    width: 35px;
-    height: 35px;
     box-shadow: 0 0 10px;
     cursor: pointer;
 }
