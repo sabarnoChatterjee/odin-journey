@@ -6,7 +6,7 @@ const keys = document.querySelector(".keys");
 const key = document.querySelector(".key");
 const clearDisplay = document.querySelector("#clear");
 const percentage = document.querySelector("#percent");
-// const deleteValue = document.querySelector(".deleteValue");
+const deleteValue = document.querySelector("#deleteValue");
 
 // Global variables
 let result = 0;
@@ -67,8 +67,6 @@ function calculator() {
         break;
 
       case "%":
-        console.log(num1);
-
         result = percent(num1);
         displayValue(result);
         num1 = result;
@@ -102,6 +100,15 @@ function calculator() {
     return result;
   }
 
+  function clearPreviousValue(){
+    let length = num1.length;
+    //removing the last element
+    num1 = num1.toString().slice(0,length-1);
+    //displaying the new value
+    displayValue(num1);
+  }
+
+
   clearDisplay.addEventListener("click", clear);
   percentage.addEventListener("click", ()=>operate(num1, "%"));
 
@@ -110,9 +117,13 @@ function calculator() {
   console.log(num1);
   operate(10000, "*", "9");
 
-  //   operate(num1,"-",3);
-  //   operate(num1,"*",3);
-  //   operate(num1,"/",2);
+    operate(num1,"-",3);
+    operate(num1,"*",3);
+    operate(num1,"/",2);
+
+//   clearPreviousValue();
+
+  deleteValue.addEventListener('click', clearPreviousValue);
 }
 
 calculator();
