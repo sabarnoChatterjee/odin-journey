@@ -172,3 +172,10 @@ Short notes on what I do each day.
 - Organized all projects under a single repository named JavaScript Mini Projects.
 - Implemented Etch a sketch(odin project).
 - Need to implement dynamic grid.
+
+### Day 25 (Oct 10, 2025)
+
+- Completed Etch-a-Sketch project — implemented dynamic grid and finalized all core features
+- Worked on Calculator project — added layout, styling, arithmetic functions, operate() logic, and functional display
+- Added clear, percentage, and delete button functionality
+- Plan: implement decimals, chaining operations, addEventListeners and prepare README for Calculator
