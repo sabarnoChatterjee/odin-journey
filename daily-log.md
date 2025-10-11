@@ -179,3 +179,10 @@ Short notes on what I do each day.
 - Worked on Calculator project — added layout, styling, arithmetic functions, operate() logic, and functional display
 - Added clear, percentage, and delete button functionality
 - Plan: implement decimals, chaining operations, addEventListeners and prepare README for Calculator
+
+
+### Day 26 (Oct 11, 2025)
+- Fixed percentage functionality and implemented decimal calculations.
+- Corrected logic for chained operations — now uses previous results properly (e.g., 12 + 7 - 1 = 18).
+- Verified multi-digit and power operations.
+- Cleaned up event handling for smoother input and display updates.
