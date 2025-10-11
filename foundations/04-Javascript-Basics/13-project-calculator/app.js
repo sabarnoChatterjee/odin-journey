@@ -118,6 +118,7 @@ function calculator() {
       console.log(`Num1 : ${num1}`);
     } else if (typeof input === "number" && operator.length === 1) {
       num2 = num;
+      result = operate(num1, operator, num2);
       console.log(`Num2 : ${num2}`);
     }
   }
@@ -204,4 +205,3 @@ function calculator() {
 
 calculator();
 
-// decimals not working
