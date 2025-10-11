@@ -8,9 +8,21 @@ const clearDisplay = document.querySelector("#clear");
 const percentage = document.querySelector("#percent");
 const deleteValue = document.querySelector("#deleteValue");
 
+// Numbers
+const one = document.getElementById("one");
+const two = document.getElementById("two");
+const three = document.getElementById("three");
+const four = document.getElementById("four");
+const five = document.getElementById("five");
+const six = document.getElementById("six");
+const seven = document.getElementById("seven");
+const eight = document.getElementById("eight");
+const nine = document.getElementById("nine");
+const zero = document.getElementById("zero");
+
 // Global variables
 let result = 0;
-let num1 = 0;
+let num1 = "";
 let num2 = 0;
 let operator = "";
 
@@ -76,6 +88,24 @@ function calculator() {
     }
   }
 
+  // User input
+  function userInput(input) {
+    if (num1.length === 0 && typeof input === "number") {
+      num1 = input;
+      console.log(num1);
+    } else if (num1.length !== 0 && typeof input === "number") {
+      num2 = input;
+      console.log(num2);
+    } else if (typeof input === "string") {
+      operator = input;
+      console.log(operator);
+    }
+
+    console.log(typeof num1);
+    console.log(typeof num1);
+    console.log(typeof num1);
+  }
+
   // Function to display values on screen
   function displayValue(number) {
     display.textContent = "";
@@ -100,30 +130,75 @@ function calculator() {
     return result;
   }
 
-  function clearPreviousValue(){
+  function clearPreviousValue() {
     let length = num1.length;
     //removing the last element
-    num1 = num1.toString().slice(0,length-1);
+    num1 = num1.toString().slice(0, length - 1);
     //displaying the new value
     displayValue(num1);
   }
 
-
   clearDisplay.addEventListener("click", clear);
-  percentage.addEventListener("click", ()=>operate(num1, "%"));
+  percentage.addEventListener("click", () => operate(num1, "%"));
+  deleteValue.addEventListener("click", clearPreviousValue);
+
+  // Keys event listeners
+  one.addEventListener("click", () => userInput(1));
+  two.addEventListener("click", () => userInput(2));
+  three.addEventListener("click", () => userInput(3));
+  four.addEventListener("click", () => userInput(4));
+  five.addEventListener("click", () => userInput(5));
+  six.addEventListener("click", () => userInput(6));
+  seven.addEventListener("click", () => userInput(7));
+  eight.addEventListener("click", () => userInput(8));
+  nine.addEventListener("click", () => userInput(9));
+
+  // Operators
+  document
+    .getElementById("plus")
+    .addEventListener("click", () => userInput("+"));
+  document
+    .getElementById("subtract")
+    .addEventListener("click", () => userInput("-"));
+  document
+    .getElementById("multiply")
+    .addEventListener("click", () => userInput("*"));
+  document
+    .getElementById("divide")
+    .addEventListener("click", () => userInput("/"));
+  document
+    .getElementById("power")
+    .addEventListener("click", () => userInput("^"));
+  document
+    .getElementById("percent")
+    .addEventListener("click", () => userInput("%"));
+  document
+    .getElementById("equals")
+    .addEventListener("click", () => operate(num1, operator, num2));
 
   // Test cases
-  operate(100, "*", "6");
-  console.log(num1);
-  operate(10000, "*", "9");
+  // operate(100, "*", "6");
+  // console.log(num1);
+  // operate(10000, "*", "9");
 
-    operate(num1,"-",3);
-    operate(num1,"*",3);
-    operate(num1,"/",2);
+  // operate(num1, "-", 3);
+  // operate(num1, "*", 3);
+  // operate(num1, "/", 2);
+  // userInput(2);
+  // userInput("*");
+  // userInput(3);
+  // operate(num1, operator, num2);
+  // userInput("+");
+  // userInput(5);
 
-//   clearPreviousValue();
+  // operate(num1, operator, num2);
 
-  deleteValue.addEventListener('click', clearPreviousValue);
+  // userInput("/");
+  // userInput(2);
+  // operate(num1, operator, num2);
+
+  //   clearPreviousValue();
+  
 }
 
 calculator();
