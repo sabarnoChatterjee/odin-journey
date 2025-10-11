@@ -18,6 +18,7 @@ const seven = document.getElementById("seven");
 const eight = document.getElementById("eight");
 const nine = document.getElementById("nine");
 const zero = document.getElementById("zero");
+const decimal = document.getElementById("decimal");
 
 // Global variables
 let num = "";
@@ -42,6 +43,11 @@ function calculator() {
   }
   function power(base, exponent) {
     return Math.pow(base, exponent).toFixed(2);
+  }
+  function percent(number) {
+    number = number/100;
+    result = number.toFixed(2);
+    return result;
   }
 
   // Operate function for calculation
@@ -80,6 +86,7 @@ function calculator() {
 
       case "%":
         result = percent(num1);
+        console.log(result);
         displayValue(result);
         num1 = result;
         break;
@@ -93,8 +100,9 @@ function calculator() {
     if (input === "%") {
       operator = "%";
       operate(num1, operator);
+      return;  
     }
-    if (typeof input === "number") {
+    if (typeof input === "number" || input===".") {
       num = num + `${input.toString()}`;
       console.log(`Number: ${num}`);
       displayValue(num);
@@ -112,17 +120,6 @@ function calculator() {
       num2 = num;
       console.log(`Num2 : ${num2}`);
     }
-
-    // if (num1.length === 0 && typeof input === "number") {
-    //   num1 = input;
-    //   console.log(num1);
-    // } else if (num1.length !== 0 && typeof input === "number") {
-    //   num2 = input;
-    //   console.log(num2);
-    // } else if (typeof input === "string") {
-    //   operator = input;
-    //   console.log(operator);
-    // }
   }
 
   // Function to display values on screen
@@ -156,12 +153,6 @@ function calculator() {
     displayValue(num1);
   }
 
-  function percent(number) {
-    number /= 100;
-    result = number.toFixed(2);
-    return result;
-  }
-
   function clearPreviousValue() {
     let length = num1.length;
     //removing the last element
@@ -185,6 +176,7 @@ function calculator() {
   seven.addEventListener("click", () => userInput(7));
   eight.addEventListener("click", () => userInput(8));
   nine.addEventListener("click", () => userInput(9));
+  decimal.addEventListener("click",()=>userInput("."));
 
   // Operators
   document
