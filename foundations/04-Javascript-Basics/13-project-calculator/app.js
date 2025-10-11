@@ -90,6 +90,10 @@ function calculator() {
 
   // User input
   function userInput(input) {
+    if (input === "%") {
+      operator = "%";
+      operate(num1, operator);
+    }
     if (typeof input === "number") {
       num = num + `${input.toString()}`;
       console.log(`Number: ${num}`);
@@ -135,9 +139,21 @@ function calculator() {
 
   // Clear function to empty display
   function clear() {
-    num1, (operator = "");
-    (num2 = 0), (display.textContent = "|");
-    display.classList.add("insertionPoint");
+    //deleting old value
+    let length = num1.length;
+    num1 = num1.toString().slice(length);
+
+    //Refreshing the calculator
+
+    num1 = "";
+    num = "";
+    console.log(`Number: ${num}`);
+
+    operator = "";
+    num2 = 0;
+
+    // displaying empty screen
+    displayValue(num1);
   }
 
   function percent(number) {
@@ -155,7 +171,7 @@ function calculator() {
   }
 
   clearDisplay.addEventListener("click", clear);
-  percentage.addEventListener("click", () => operate(num1, "%"));
+  percentage.addEventListener("click", () => userInput(num1, "%"));
   deleteValue.addEventListener("click", clearPreviousValue);
 
   // Keys event listeners
@@ -197,4 +213,3 @@ function calculator() {
 calculator();
 
 // decimals not working
-
