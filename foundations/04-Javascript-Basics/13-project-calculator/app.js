@@ -1,6 +1,5 @@
 // Variables
 const body = document.querySelector("body");
-// const calculator = document.querySelector(".calculator");
 const display = document.querySelector(".display");
 const keys = document.querySelector(".keys");
 const key = document.querySelector(".key");
@@ -21,6 +20,7 @@ const nine = document.getElementById("nine");
 const zero = document.getElementById("zero");
 
 // Global variables
+let num = "";
 let result = 0;
 let num1 = "";
 let num2 = 0;
@@ -90,28 +90,43 @@ function calculator() {
 
   // User input
   function userInput(input) {
-    if (num1.length === 0 && typeof input === "number") {
-      num1 = input;
-      console.log(num1);
-    } else if (num1.length !== 0 && typeof input === "number") {
-      num2 = input;
-      console.log(num2);
+    if (typeof input === "number") {
+      num = num + `${input.toString()}`;
+      console.log(`Number: ${num}`);
+      displayValue(num);
     } else if (typeof input === "string") {
+      num = "";
       operator = input;
-      console.log(operator);
+      console.log(`Operator : ${operator}`);
+      displayValue(operator);
     }
 
-    console.log(typeof num1);
-    console.log(typeof num1);
-    console.log(typeof num1);
+    if (operator.length === 0) {
+      num1 = num;
+      console.log(`Num1 : ${num1}`);
+    } else if (typeof input === "number" && operator.length === 1) {
+      num2 = num;
+      console.log(`Num2 : ${num2}`);
+    }
+
+    // if (num1.length === 0 && typeof input === "number") {
+    //   num1 = input;
+    //   console.log(num1);
+    // } else if (num1.length !== 0 && typeof input === "number") {
+    //   num2 = input;
+    //   console.log(num2);
+    // } else if (typeof input === "string") {
+    //   operator = input;
+    //   console.log(operator);
+    // }
   }
 
   // Function to display values on screen
-  function displayValue(number) {
+  function displayValue(input) {
     display.textContent = "";
     const value = document.createElement("h1");
     const insertionPoint = document.createElement("h1");
-    value.innerText = `${number} `;
+    value.innerText = `${input} `;
     insertionPoint.classList.add("insertionPoint");
     insertionPoint.innerText = "|";
     display.appendChild(value);
@@ -120,7 +135,8 @@ function calculator() {
 
   // Clear function to empty display
   function clear() {
-    display.textContent = "|";
+    num1, (operator = "");
+    (num2 = 0), (display.textContent = "|");
     display.classList.add("insertionPoint");
   }
 
@@ -143,6 +159,7 @@ function calculator() {
   deleteValue.addEventListener("click", clearPreviousValue);
 
   // Keys event listeners
+  zero.addEventListener("click", () => userInput(0));
   one.addEventListener("click", () => userInput(1));
   two.addEventListener("click", () => userInput(2));
   three.addEventListener("click", () => userInput(3));
@@ -175,30 +192,9 @@ function calculator() {
   document
     .getElementById("equals")
     .addEventListener("click", () => operate(num1, operator, num2));
-
-  // Test cases
-  // operate(100, "*", "6");
-  // console.log(num1);
-  // operate(10000, "*", "9");
-
-  // operate(num1, "-", 3);
-  // operate(num1, "*", 3);
-  // operate(num1, "/", 2);
-  // userInput(2);
-  // userInput("*");
-  // userInput(3);
-  // operate(num1, operator, num2);
-  // userInput("+");
-  // userInput(5);
-
-  // operate(num1, operator, num2);
-
-  // userInput("/");
-  // userInput(2);
-  // operate(num1, operator, num2);
-
-  //   clearPreviousValue();
-  
 }
 
 calculator();
+
+// decimals not working
+
